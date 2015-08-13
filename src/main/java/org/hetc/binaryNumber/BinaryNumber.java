@@ -99,7 +99,6 @@ public final class BinaryNumber implements Comparable<BinaryNumber>{
 
 	private static void checkStringIsValidBinNumber(String bin){
 		char firstDigit = bin.charAt(0);
-		System.out.println("First Char: " + firstDigit);
 		if(firstDigit != ZERO_DIGIT && firstDigit != ONE_DIGIT && firstDigit != MINUS){
 			throw new NumberFormatException("Invalid charackter for the first digit of the String"
 					+ " - must be 0, 1 or '-'");
