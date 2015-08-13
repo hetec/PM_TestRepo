@@ -17,10 +17,10 @@ public class BinaryNumberMathOperationsTest {
 
 	@Before
 	public void setUp(){
-		six = BinaryNumber.of(11);//6);
+		six = BinaryNumber.of(6);
 		seven = BinaryNumber.of(7);
 		zero = BinaryNumber.of(0);
-		negSix = BinaryNumber.of(new BigInteger("9"));//"-6"));
+		negSix = BinaryNumber.of(new BigInteger("-6"));
 		negSeven = BinaryNumber.of(new BigInteger("-7"));
 	}
 
